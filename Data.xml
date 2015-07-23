@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<TestCases>
+<TestCase>
+<A>4</A>
+<N>2</N>
+<EPS>0.001</EPS>
+</TestCase>
+<TestCase>
+<A>4</A>
+<N>0</N>
+<EPS>0.001</EPS>
+</TestCase>
+<TestCase>
+<A>122</A>
+<N>3</N>
+<EPS>0.001</EPS>
+</TestCase>
+<TestCase>
+<A>0</A>
+<N>3</N>
+<EPS>0.001</EPS>
+</TestCase>
+</TestCases>
