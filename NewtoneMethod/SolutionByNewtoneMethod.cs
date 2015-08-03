@@ -9,8 +9,6 @@ namespace NewtoneMethod
 {
     public class SolutionByNewtoneMethod
     {
-        public static double x1;
-        public static double x2;
         public static double Execute(double a, int n, double eps)
         {
             if (a < 0)
@@ -27,7 +25,8 @@ namespace NewtoneMethod
             {
                 return 0;
             }
-                x1 = 0; x2 = 1;
+                double x1 = 0; 
+                double x2 = 1;
                 do
                 {
                     x1 = x2;
